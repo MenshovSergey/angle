@@ -21,6 +21,7 @@ def get_rotate_angle(src_pts, dst_pts):
         alpha = math.atan(-a21 / a22)
         alpha = math.degrees(alpha)
 
+    print("rotate angle = "+str(alpha))
     return alpha
 
 
